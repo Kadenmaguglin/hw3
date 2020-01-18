@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Password Generator</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+
+  <div class="container">
+    <h1>Welcome, user</h1>
+    <h2>select your password length</h2>
+    <div class="sliderContainer"><h3>short
+        <input id="slider" type="range" min="10" max="20" value="15">
+    long</h3></div>
+      <button class="passwordButton" onclick="generate()">click this to generate a new random password..</button>
+      <br>
+
+      <input type="text" value="password" id="passwordField">
+      <br>
+
+      <button class="copyButton" onclick="copy()">click this to copy the password</button>
+      <br>
+    <footer class="footer"><h4>Made by Kaden Maguglin</h4></footer>
+    
+    
+    
+  </div>
+  <script src="./script.js" ></script>
+</body>
+</html>
