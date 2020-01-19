@@ -59,6 +59,15 @@ color: white;
     color:white;
 }
 
+.allbuttons{
+    border: solid 2px white;
+    background-color:black;
+    color:lightgreen;
+}.allbuttons:hover{
+    background-color:white;
+    color:black;
+}
+
 #passwordField{
     margin-left: auto;
     margin-right: auto;
@@ -110,4 +119,13 @@ h3{
     width: 960px;
     color: black;
     height: 50px;
+}
+
+.selectorContainer{
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+    color:black;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size:20px;
 }
