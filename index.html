@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Password Generator</title>
@@ -12,23 +11,20 @@
 
 
   <div class="container">
-    <div class="row"><h1 class="col-md-12">Welcome, user</h1></div>
-    <div class="row"><h2 class="col-md-12">select your password length</h2></div>
-
-    <div class="row"><h3 class="col-md-12 shortLong"><-----short || long-----></h3></div><br>
-    <div class="row sliderContainer"><input class="col-md-12" id="slider" type="range" min="8" max="128" value="68"></div><br>
-
-
-      <div class="row"><button class="passwordButton col-md-12" onclick="generate()">click this to generate a new random password..</button></div>
+    <h1>Welcome, user</h1>
+    <h2>select your password length</h2>
+    <div class="sliderContainer"><h3>short
+        <input id="slider" type="range" min="10" max="20" value="15">
+    long</h3></div>
+      <button class="passwordButton" onclick="generate()">click this to generate a new random password..</button>
       <br>
 
-      <div class="row"><input class = "col-md-12" type="text" value="password" id="passwordField"></div>
+      <input type="text" value="password" id="passwordField">
       <br>
 
-      <div class="row"><button class="copyButton col-md-12" onclick="copy()">click this to copy the password</button></div>
+      <button class="copyButton" onclick="copy()">click this to copy the password</button>
       <br>
-
-    <footer class="col-md-12 footer"><div class="col-md-4"></div><h4 class="col-md-4 footerText">Made by Kaden Maguglin</h4><div class="col-md-4"></div></footer>
+    <footer class="footer"><h4>Made by Kaden Maguglin</h4></footer>
     
     
     
@@ -36,4 +32,3 @@
   <script src="./script.js" ></script>
 </body>
 </html>
-
