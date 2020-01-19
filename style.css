@@ -5,27 +5,20 @@ body{
 .container{
     margin-left: auto;
     margin-right: auto;
-    width: 1220px;
+    width: 960px;
 
 }
 
 .sliderContainer{
     margin-left:auto;
     margin-right:auto;
-    width:800px;
-}
-
-.shortLong{
-    margin-left:auto;
-    margin-right:auto;
-    width:1220px;
-    text-align: center;
+    width:960px;
 }
 
 #slider{
     margin-left: auto;
     margin-right: auto;
-    width:800px;
+    width:600px;
     -webkit-appearance: none;
     height: 15px;
     border-radius: 5px;
@@ -45,7 +38,7 @@ body{
 .passwordButton{
     margin-left: auto;
     margin-right: auto;
-    width: 1220px;
+    width: 960px;
     background-color:lightgreen;
     color:black;
     font-family: "Lucida Console", Monaco, monospace;
@@ -57,7 +50,7 @@ color: white;
 .copyButton{
     margin-left: auto;
     margin-right: auto;
-    width: 1220px;
+    width: 960px;
     background-color:lightgreen;
     color:black;
     font-family: "Lucida Console", Monaco, monospace;
@@ -69,20 +62,20 @@ color: white;
 #passwordField{
     margin-left: auto;
     margin-right: auto;
-    width: 1215px;
+    width: 955px;
     text-align: center;
     color:lightgreen;
     background-color:black;
     height:60px;
     font-family: "Lucida Console", Monaco, monospace;
-    font-size: 15px;
+    font-size: 30px;
 }
 
 h1{
     margin-left: auto;
     margin-right: auto;
     color: lightgreen;
-    width: 1220px;
+    width: 960px;
     text-align: center;
     font-family: "Lucida Console", Monaco, monospace;
 }
@@ -90,7 +83,7 @@ h2{
     margin-left: auto;
     margin-right: auto;
     color: lightgreen;
-    width: 1220px;
+    width: 960px;
     text-align: center;
     font-family: "Lucida Console", Monaco, monospace;
 }
@@ -108,15 +101,13 @@ h3{
     border-style:solid;
     border-width: 5px 5px 0px 5px;
     border-color: white;
+    display: table;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     position: fixed;
     bottom:0;
-    width: 1140px;
+    width: 960px;
     color: black;
     height: 50px;
-}
-
-.footerText{
-    text-align: center;
-    font-family: "Lucida Console", Monaco, monospace;
 }
